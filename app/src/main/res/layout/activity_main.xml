@@ -11,8 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="com.example.stacker.BottomSheet"
+        android:background="@drawable/bg_layout"
         app:behavior_hideable="false"
-        app:behavior_peekHeight="100dp">
+        app:behavior_peekHeight="80dp">
         <include layout="@layout/stack_1"
 
           />
@@ -21,11 +22,12 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="500dp"
         android:id="@+id/stack_2"
         app:layout_behavior="com.example.stacker.BottomSheet"
+        android:background="@drawable/bg_layout"
         android:visibility="gone"
-        app:behavior_peekHeight="100dp">
+        app:behavior_peekHeight="80dp">
         <include layout="@layout/stack_2"
             />
 
